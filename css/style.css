@@ -325,7 +325,7 @@ body {
   right: 0;
   bottom: 0;
   background-color: #fff;
-  z-index: 999;
+  z-index: 9999;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
