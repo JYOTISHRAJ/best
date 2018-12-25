@@ -2492,11 +2492,13 @@ body::-webkit-scrollbar-thumb {
 
 .i {
   color: #e84444;
-  border-top: 5px solid #e84444;
-  border-radius: 50%;
+  border-top: 13px solid #e84444;
+  border-radius: 100%;
 
 }
 
 .web, .zian {
-  border-bottom: 2px solid #e84444;
+  border-bottom: 3px solid #e84444;
+  border-radius: 10%;
+
 }
