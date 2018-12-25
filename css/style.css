@@ -2480,25 +2480,51 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Banner */
+
 .banner {
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   font-size: 40px;
   font-weight: 700;
+  color: #222 !important;
 }
 
 .banner-footer {
-  color: #f5f5f5;
+  color: #f5f5f5 !important;
+  transition: 0.5s;
 }
 
 .i {
   color: #e84444;
   border-top: 13px solid #e84444;
   border-radius: 100%;
-
+  transition: 0.5s;
 }
 
 .web, .zian {
   border-bottom: 3px solid #e84444;
   border-radius: 10%;
-
+  transition: 0.5s;
 }
+
+.banner:hover .zian, .banner:hover .web {
+  border-bottom: 3px solid #222;
+  color: #e84444;
+  transition: 0.5s;
+}
+
+.banner:hover .i {
+  border-top: 13px solid #222;
+  color: #222;
+  transition: 0.5s;
+}
+
+.banner-footer:hover .i{
+  color: #f5f5f5 !important;
+  border-top: 13px solid #fff;
+}
+
+.banner-footer:hover .web, .banner-footer:hover .zian {
+  border-bottom: 3px solid #fff;
+}
+
+
