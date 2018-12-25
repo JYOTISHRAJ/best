@@ -178,6 +178,7 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
+  overflow-y: scroll;
 }
 
 p, .paragraph {
@@ -2633,4 +2634,40 @@ ul.tag-list li a:hover {
   outline: 0;
 }
 
-/*# sourceMappingURL=maps/style.css.map */
+/* Scroll Bar **
+.container {
+  margin: 40px auto;
+  width: 1000px;
+  height: 200px;
+  overflow-y: scroll;
+} */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-track {
+  background: tomato;
+  border-left: 2px solid rgba(0, 0, 0, 0.06);
+  border-right: 2px solid rgba(0, 0, 0, 0.06);
+}
+body::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.822);
+  border: none;
+}
+
+
+
+
+/*
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow:  inset 8px 2px rgba(255, 55, 55, 0.932);
+}
+
+body::-webkit-scrollbar-corner {
+background-color: #222;
+}
+
+*/
